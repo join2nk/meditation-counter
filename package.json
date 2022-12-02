@@ -1,0 +1,17 @@
+{
+  "name": "meditation-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd vite-client && npm run dev",
+    "devStart": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "devDependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
